@@ -1,0 +1,89 @@
+
+.sidenav {
+    height: 2000px;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    top: 470px;
+    left: 0;
+    background-color: #b9b9b9;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  #texts{
+    text-align: start;
+    font-size: 24px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    text-align: start;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: red;
+  }
+
+  #table-admins{
+    width: 100%;
+    border-color: rgb(80, 80, 80);
+    border-style: hidden;
+    margin: auto;
+  }
+
+  th{
+    height: 70px;
+    background-color: black;
+    color: white;
+  }
+
+  td{
+    text-align: center;
+  }
+
+
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    margin-top: -150px;
+  }
+  #form{
+    margin-left: 300px;
+  }
+
+  .form-control {
+    border-radius: 5px;
+    margin-left: 50px;
+    text-align: center;
+  }
+
+
+
+  .form-control::placeholder{
+    text-align: center;
+  }
+
+  #labels{
+    font-size: 24px;
+  }
+
+  #image-input{
+    display: none;
+  }
+
+  label{
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+  }
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

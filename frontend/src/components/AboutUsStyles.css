@@ -1,0 +1,31 @@
+.about-container {
+    margin: 4rem 6rem;
+    text-align: start;
+    margin-top: -60px;
+}
+
+.about-container h1 {
+    padding-bottom: 1rem;
+}
+
+.about-container p {
+    padding-bottom: 2rem;
+}
+
+#city-description {
+    font-size: 20px;
+    color: #464646;
+    white-space: pre-line;
+}
+
+.booking-button {
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 850px) {
+    .about-container {
+        margin: 4rem 2rem;
+    }
+}
